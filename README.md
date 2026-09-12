@@ -1,4 +1,4 @@
-# Upgrade Ender 5 — tête Kobra 2 Pro + MKS Robin Nano V3.1 + Klipper
+# Upgrade Ender 5 - tête Kobra 2 Pro + MKS Robin Nano V3.1 + Klipper
 
 Projet de modernisation d'une imprimante 3D **Creality Ender 5** : remplacement de l'électronique et de la tête d'impression d'origine par une carte mère plus moderne et un ensemble hotend/extrudeur/capteurs récupéré sur une **Anycubic Kobra 2 Pro**, piloté par **Klipper** depuis un Raspberry Pi.
 
@@ -15,7 +15,7 @@ Projet de modernisation d'une imprimante 3D **Creality Ender 5** : remplacement 
 
 ## Pourquoi ce projet
 
-L'objectif de départ était un upgrade classique d'électronique (carte MKS Robin Nano V3.1 + écran tactile TS35) sur une Ender 5. En cours de route, le projet s'est étendu à la récupération de la tête d'impression complète d'une Kobra 2 Pro — extrudeur direct drive et capteur de nivellement automatique inductif — pour remplacer l'extrudeur Bowden et le BLTouch initialement prévus. Cette tête intègre aussi un accéléromètre, ce qui a motivé la bascule finale de Marlin vers **Klipper** : Klipper sait exploiter nativement ce capteur pour du resonance testing / input shaping automatique, ce que Marlin ne propose pas pour ce type de puce.
+L'objectif de départ était un upgrade classique d'électronique (carte MKS Robin Nano V3.1 + écran tactile TS35) sur une Ender 5. En cours de route, le projet s'est étendu à la récupération de la tête d'impression complète d'une Kobra 2 Pro - extrudeur direct drive et capteur de nivellement automatique inductif - pour remplacer l'extrudeur Bowden et le BLTouch initialement prévus. Cette tête intègre aussi un accéléromètre, ce qui a motivé la bascule finale de Marlin vers **Klipper** : Klipper sait exploiter nativement ce capteur pour du resonance testing / input shaping automatique, ce que Marlin ne propose pas pour ce type de puce.
 
 ## Décisions clés
 
