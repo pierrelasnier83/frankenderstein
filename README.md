@@ -1,3 +1,4 @@
+# Frankenderstein ! An Ender 5 bitten by a Kobra, powered by Klipper, armed with a laser !
 # Upgrade Ender 5 - tête Kobra 2 Pro + MKS Robin Nano V3.1 + Klipper
 
 Projet de modernisation d'une imprimante 3D **Creality Ender 5** : remplacement de l'électronique et de la tête d'impression d'origine par une carte mère plus moderne et un ensemble hotend/extrudeur/capteurs récupéré sur une **Anycubic Kobra 2 Pro**, piloté par **Klipper** depuis un Raspberry Pi.
