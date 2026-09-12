@@ -1,0 +1,3 @@
+Sources/klipper/out/
+Sources/klipper/**/__pycache__/
+Sources/klipper/.sconsign.dblite
